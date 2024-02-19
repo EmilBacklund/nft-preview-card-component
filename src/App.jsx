@@ -13,7 +13,7 @@ function App() {
             />
           </div>
           <div className="pt-6 sm:pb-6 pb-4 border-b border-dividerBlue">
-            <h1 className="text-white text-[22px] font-semibold leading-[28px] mb-3 sm:mb-4 hover:text-cyan cursor-pointer duration-200">
+            <h1 className="text-white text-[22px] font-semibold leading-[28px] mb-3 sm:mb-4 hover:text-cyan cursor-pointer transition-colors duration-200">
               Equilibrium #3429
             </h1>
             <p className="text-softBlue font-light text-lg leading-[26px] mb-4 sm:mb-6">
@@ -39,7 +39,7 @@ function App() {
               <img src="/images/image-avatar.png" alt="" />
             </div>
             <p className="text-white text-[15px] sm:text-base leading-[19px] sm:leading-5">
-              <span className="text-softBlue">Creation of</span>{" "}
+              <span className="text-softBlue">Creation of </span>
               <span className="hover:text-cyan cursor-pointer duration-200 truncate">
                 Jules Wyvern
               </span>
